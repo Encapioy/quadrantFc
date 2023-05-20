@@ -1,0 +1,163 @@
+
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar Start */
+
+#nav {
+    top: 0;
+    z-index: 1001;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+    padding: 8px 17px;
+    transition: 0.5s;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a.active {
+    transform: scale(1.1);
+}
+
+/* Navbar End */
+
+/* Banner Start*/
+
+.text-white h1 {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+/* Banner End */
+
+/* Pemain Start */
+
+.pemain {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pemain-head {
+    margin-top: 55px;
+}
+
+.text-dark h1 {
+    font-size: 55px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.text-dark h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tab-router:focus{
+    color: #FFF !important;
+    background-color: #a3a3a3;
+}
+
+/* Pertandingan Start */
+
+#pertandingan {
+    margin: 100px 0 100px 0;
+}
+
+.match-title h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.match-description {
+    margin-top: 50px;
+}
+
+.match-description .match-list {
+    list-style: none;
+    width: 100%;
+}
+
+.match-description .match-content-group {
+    list-style: none;
+    margin-left: -33px;
+}
+
+.match-lig-img,
+.tim-img {
+    width: 50px;
+    height: 50px;
+}
+
+.match-lig-img img,
+.tim-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.match-lig-name {
+    margin-top: 20px;
+}
+
+.match-lig-name h6,
+.skor h6 {
+    font-weight: 600;
+}
+
+.match-lig-name p {
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.tim h5 {
+    margin-top: 7px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.tim-home h5 {
+    margin-right: 5px;
+    width: 175px;
+}
+
+.tim-away h5 {
+    margin-left: 5px;
+    width: 175px;
+}
+
+.tim-img{
+    margin: 0 5px 0 5px;
+}
+
+.skor {
+    text-align: center;
+    margin: 5px 5px 5px 0;
+    
+}
+
+.skor h6 {
+    font-size: 1.5em;
+    padding-top: 5px;
+    margin: 0 2px 0 2px;
+    width: 50px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #dadada;
+}
+
+.match-detail button{
+    font-size: 0.7em;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 12px;
+}
+
+/* Pertandingan End */
